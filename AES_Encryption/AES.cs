@@ -22,12 +22,14 @@ namespace HeartAttackApp.Helper
                     string EncryptTxt = Console.ReadLine().ToString();
                     string EncryptedText = Encrypt(EncryptTxt);
                     Console.WriteLine("Encrypted Text: "+EncryptedText);
+                    Console.ReadLine();
                     break;
                 case 2:
                     Console.WriteLine("Enter Text to Decrypt");
                     string DecryptTxt = Console.ReadLine().ToString();
                     string DecryptedText = Decrypt(DecryptTxt);
                     Console.WriteLine("Decrypted Text: " + DecryptedText);
+                    Console.ReadLine();
                     break;
                 default:
                     Console.WriteLine("Seriously?");
